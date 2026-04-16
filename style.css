@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eef2f7;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Nav */
+nav {
+    background: #34495e;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+/* Button */
+button {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background: #1abc9c;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+}
