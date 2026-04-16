@@ -2,6 +2,11 @@ body {
     font-family: Arial;
     margin: 0;
     background: #eef2f7;
+
+    /* FIX: make page full height layout */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -27,8 +32,10 @@ nav a:hover {
     color: #1abc9c;
 }
 
+/* FIX: this pushes footer down */
 main {
     padding: 20px;
+    flex: 1;
 }
 
 section {
